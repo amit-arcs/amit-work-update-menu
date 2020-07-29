@@ -1,0 +1,122 @@
+<html>
+<head runat="server">
+    <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
+  <style>
+    .btn{
+      border-radius:1.25rem;
+    }
+  </style>
+</head>
+<body>
+    <div class="row">
+      <div class="col-md-12 text-center" style="height:10%;background-color:aliceblue">
+        Welcome To Kanpur
+      </div>
+    </div>
+  <div class="row" style="margin-top:10px;margin-left:2px;">
+    <div class="col-md-1">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    GST
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <a class="dropdown-item" href="#">REGISTRATION</a>
+    <a class="dropdown-item" href="#">FILING OF RETURNS</a>
+    <a class="dropdown-item" href="#">EWAY BILL GENERATION</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-1">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    INCOME TAX
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">FILING OF RETURN</a>
+    <a class="dropdown-item" href="#">INCOME TAX CASES</a>
+    <a class="dropdown-item" href="#">REFUND MATTERS</a>
+    <a class="dropdown-item" href="#">PAN CARD APPLY</a>
+    <a class="dropdown-item" href="#">TAN APPLY</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-2" style="margin-left:50px;">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    ACCOUNT & AUDIT
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">CAPITAL MANAGEMENT</a>
+    <a class="dropdown-item" href="#">ESI COMPLIANCES</a>
+    <a class="dropdown-item" href="#">AUDIT WORK</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-2">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    COMPANIES ACT,2013
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">INCORPORATION OF COMPANY/LLP</a>
+    <a class="dropdown-item" href="#">COMPANY SEARCH REPORT</a>
+    <a class="dropdown-item" href="#">ROC COMPLIANCE FILING</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-2">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    BANKING & FINANCE
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">LOAN APPRAISAL</a>
+    <a class="dropdown-item" href="#">PREPARATION OF PROJECT REPORT & CMA</a>
+  </div>
+</div>
+    </div>
+    <div class="col-md-2">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    INVESTMENT & INSURANCE
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">INVESTMENT SCHEMES</a>
+    <a class="dropdown-item" href="#">ALL TYPES OF INSURANCE INCLUDING FACTORY & WORKS</a>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3" style="margin-top:15px;margin-left:2px;">
+      <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   OTHER STATUTARY COMPLIANCES
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">EXPORT & IMPORT LICENSES</a>
+    <a class="dropdown-item" href="#">IRDA ACTIVITIES</a>
+    <a class="dropdown-item" href="#">VALUATION</a>
+    <a class="dropdown-item" href="#">PATENTS & TRADEMARKS</a>
+  </div>
+</div>
+    </div>
+  </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>
